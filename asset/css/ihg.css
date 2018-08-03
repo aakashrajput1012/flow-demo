@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+/*change color of right side navabr*/
+.navRight{
+	background-color:#C93;
+}
+/*float right shopping cart*/
+.shopping-cart{
+	float:right;
+}
+/*change a size shopping cart*/
+.shopping-cart span{
+	font-size:24px;
+}
+/*set a height width image of carousel*/
+.carousel-inner>.item>img{
+	width:100%;height:500px;
+}
+/* show a list inline*/
+ul#menu li {
+    display:inline;
+}
+/*change a color*/
+.changColor{
+	color:#F00;
+}
+.promoEdit{
+	float:right;
+	padding:6px 15px 2px 18px;
+	background-color:#C00;
+	color:#FFF;
+	font-size:11px;
+}
+/*give a border panel and set height and widht*/
+.panelborder{
+	border:1px solid #dddddd;
+	width:100%;
+	height:400px;	
+}
+/*hide text in panel*/
+.ptext{
+	white-space: nowrap; 
+	width: 15em; 
+	overflow: hidden;
+	text-overflow: ellipsis; 
+}
+/*panel button*/
+.panelbtn{
+	padding-left:40px; 
+	padding-right:40px;
+	border-radius:0px;
+	top:76%;
+	right:60%;
+	left:25%;
+	position:absolute;
+}
+/*change a color down arrow*/
+.fa-angle-down{
+	color:#C93;
+}
+/*change a color shopping cart*/
+.glyphicon-shopping-cart{
+	color:#C93;
+}
+/*change color navbar*/
+.navbar-default{
+	background-color:#FFF;
+}
+/*set font family*/
+.navbar{
+	font-family:Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace;
+	font-size:12px;
+}
+/*change color and size plus icon*/
+.fa-plus{
+	color:#C93;
+	font-size:10px;
+}
+.fa-minus{
+	color:#C93;
+	font-size:10px;
+}
+/*change color and size carousel indicators*/
+.carousel-indicators li {
+    display: inline-block;
+    width: 39px;
+    height: 3px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    /*background-color: #000 \9;
+    background-color: rgba(211, 15, 15, 0.82);*/
+    border: 1px solid transparent;
+    /* border-radius: 10px; */
+}
+.carousel-indicators .active{
+	width: 39px;
+	height:3px;
+    margin: 0;
+	border: 1px solid rgba(211, 15, 15, 0.82);
+    background-color: rgba(211, 15, 15, 0.82);
+}
+.panel-heading {
+    padding: 0px 0px 4px 7px;
+}
+.onHover{
+	cursor:pointer;
+}
+/*remove underline*/
+a{
+	text-decoration:none !important;
+}
+.panel:hover{
+	box-shadow: 2px 1px 1px 1px #666666;	
+}
+@media screen and (max-width:1151px){
+	.navtext{
+		display:none;
+	}
+	.panelbtn{
+		padding-left:10px; 
+		padding-right:10px;
+		border-radius:0px;
+		top:85%;
+		right:50%;
+		left:34%;
+		position:absolute;
+	}
+	.panelborder{
+		border:1px solid #dddddd;
+		width:100%;
+		height:438px;	
+	}
+}
+@media screen and (max-width:1278px){
+		.ptext{
+			white-space: nowrap; 
+			width: 9em; 
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+}
